@@ -57,16 +57,6 @@
         <button class="hero-butoon" type="button" data-modal-open>Заказать услугу</button>
       </div>
     </section>
-  <!--Модалка-->
-    <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button type="button" class="modal-button" data-modal-close>
-          <svg class="modal-svg">
-            <use href="./images/icons.svg#icon-close"></use>
-          </svg>
-        </button>
-      </div>
-    </div>
     <!-- Секція Benefits -->
     <section class="benefits">
       <div class="container">
@@ -409,8 +399,35 @@
           </li>
         </ul>
         </div>
+        <div>
+          <form class="footer-form">
+            <div>
+            <label class="footer-ladel">
+              подпишитесь на рассылку
+              <input class="footer-input" type="text" name="mail" placeholder="E-mail">
+            </label>
+            </div>
+            <div>
+            <button class="input-button" type="submit">Подписаться 
+              <svg class="input-svg" width="24px" height="24px">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
+      <!--Модалка-->
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button type="button" class="modal-button" data-modal-close>
+            <svg class="modal-svg">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
     <script src="./js/modal.js"></script>
     </body>    
     </html>
