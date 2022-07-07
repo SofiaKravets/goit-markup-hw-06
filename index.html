@@ -403,8 +403,8 @@
           <form class="footer-form">
             <div>
             <label class="footer-ladel">
-              подпишитесь на рассылку
-              <input class="footer-input" type="text" name="mail" placeholder="E-mail">
+              <span>подпишитесь на рассылку</span>
+              <input class="footer-input" type="email" name="user-mail" placeholder="E-mail">
             </label>
             </div>
             <div>
@@ -426,6 +426,32 @@
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
           </button>
+          <div class="form-item">
+          <strong class="form-strong">Оставьте свои данные, мы вам перезвоним</strong>
+          <form name="imputs" class="form">
+           <label class="modal-info">
+            <span>Имя</span>
+            <input class="modal-form" type="text" name="user-name" placeholder=" ">
+           </label>
+            <label class="modal-info">
+              <span>Телефон</span>
+              <input class="modal-form" type="tel" name="user-tel" placeholder=" ">
+            </label>
+            <label class="modal-info">
+              <span>Почта</span>
+              <input class="modal-form" type="email" name="user-email" placeholder=" ">
+            </label>
+            <label class="modal-info">
+              <span>Комментарий</span>
+              <textarea class="modal-texterea" name="comment" placeholder="Введите текст"></textarea>
+            </label>
+            <label>
+              <input type="checkbox">
+              <span class="checkbox-text">Соглашаюсь с рассылкой и принимаю <a href="" class="checkbox-linc">Условия договора</a></span>              
+            </label>
+            <button class="form-button" type="submit">Отправить</button>
+          </form>
+          </div>
         </div>
       </div>
     <script src="./js/modal.js"></script>
