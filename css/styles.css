@@ -877,6 +877,12 @@ body {
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form:focus {
+  outline: none;
+  border: 1px solid var(--accent-color);
 }
 
 .modal-form:focus ~ .modal-form-svg {
@@ -896,6 +902,13 @@ body {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-texterea:focus {
+  outline: none;
+  border: 1px solid var(--accent-color);
 }
 
 .checkbox-text {
